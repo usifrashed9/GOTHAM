@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(15 29 35);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: rgb(15 29 35);
+  padding: 5px 20px;
+  position: relative;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.658),
+    rgba(0, 0, 255, 0.63),
+    rgba(255, 255, 0, 0.616),
+    rgba(0, 128, 0, 0.699)
+  );
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.img img {
+  width: 45px;
+  border-radius: 1000px;
+}
+.sec {
+  margin: 0 -61px;
+  padding: 0 10px;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 10px;
+  font-family: fantasy;
+  font-size: 22px;
+  font-weight: 300;
+  border-radius: 15px;
+  margin: 0 -1px;
+  color: #f50404;
+  text-transform: uppercase;
+  text-shadow: 6px -3px 4px black;
+}
+.links .buttom {
+  color: blue;
+}
+
+.links a:hover {
+  background-color: rgba(245, 245, 220, 0.144);
+  border-radius: 30px;
+  color: #eeeeeec4;
+  transition: 0.5s;
+  text-shadow: none;
+}
+
+.links .link {
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-transform: capitalize;
+}
+
+.sec .links .buttom:hover {
+  color: white;
+  background-color: rgb(15 29 35);
+}
+.land {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.gotham {
+  padding-top: 15px;
+  color: #c21313;
+  position: absolute;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 95px;
+  text-transform: uppercase;
+  text-shadow: 6px -3px 4px black;
+}
+.Ass-100 {
+  width: 100%;
+  height: 100%;
+}
+/*////////////////////////////////////////////////////////*/
+.ten {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(15 29 35);
+}
+.six {
+  padding: 25px 50px;
+  padding-top: 15px;
+  color: #c21313;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 53px;
+  text-transform: uppercase;
+  text-shadow: 6px -3px 4px black;
+  text-align: center;
+}
+.six::first-letter {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+/*////////////////////////////////////////////////////////*/
+.card {
+  width: 500px;
+}
+.v4 {
+  width: 90px;
+  position: absolute;
+  right: 43%;
+}
+.v4-1 {
+  width: 90px;
+  position: absolute;
+  right: 38%;
+}
+
+/*////////////////////////////////////////////////////////*/
+
+.card .photo {
+  width: 100%;
+  border: 0.1px solid rgba(183, 0, 255, 0.212);
+  border-radius: 6px;
+}
+.card-info {
+  position: relative;
+  padding: 5px 0;
+}
+.a2 {
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+  color: #7763c0;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 6px -3px 4px black;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.word {
+  margin-top: 100px;
+  position: relative;
+  padding: 40px;
+  bottom: 50px;
+}
+.v5 {
+  font-family: fantasy;
+  font-size: 53px;
+  text-align: center;
+  color: #c21313;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 6px -3px 4px black;
+  letter-spacing: 3px;
+}
+.v5::first-letter {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+/*////////////////////////////////////////////////////////*/
+.word::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.658),
+    rgba(0, 0, 255, 0.63),
+    rgba(255, 255, 0, 0.616),
+    rgba(0, 128, 0, 0.699)
+  );
+}
+.carding {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -100px;
+}
+.card-infoo p {
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  color: #2aa360;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 6px -3px 4px black;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.cardd .ig {
+  padding: 50px;
+  border-radius: 60px;
+}
+
+/*////////////////////////////////////////////////////////*/
+.cont {
+  position: relative;
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+  color: #cebcbc;
+  font-style: italic;
+  text-transform: capitalize;
+  text-shadow: 6px -3px 4px black;
+  letter-spacing: 3px;
+  margin: 60px;
+}
+.cont::before {
+  content: "";
+  position: absolute;
+  top: 62px;
+  left: -15px;
+  width: 100%;
+  background-color: black;
+  height: 4px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.658),
+    rgba(0, 0, 255, 0.63),
+    rgba(255, 255, 0, 0.616),
+    rgba(0, 128, 0, 0.699)
+  );
+}
+.foot {
+  position: relative;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  color: white;
+  width: 350px;
+  background-color: #303a4d;
+  height: 50px;
+  margin: 0 20px;
+  border-radius: 4px;
+  padding: 18px;
+  border: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.v6 button {
+  display: flex;
+  justify-content: center;
+  margin: 20px 43px;
+  color: rgba(255, 255, 255, 0.527);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 300px;
+  height: 40px;
+  border: 0;
+  padding: 2px 0;
+  border-radius: 10px;
+  background-color: #080bc9;
+}
+.v6 button:hover {
+  color: #eee;
+  cursor: pointer;
+}
+.thnx {
+  display: flex;
+  font-family: fantasy;
+  font-size: 50px;
+  justify-content: center;
+  color: #be0808;
+  font-style: italic;
+  text-transform: capitalize;
+  text-shadow: 6px -3px 4px black;
+  letter-spacing: 3px;
+  margin: 60px;
+}
+.fa-sharp {
+  margin: 3px 17px;
+  font-weight: bold;
+}
